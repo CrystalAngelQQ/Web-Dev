@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            .a{
+                color:red;
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to KBTU</h1>
+        <p>I travel to kbtu everyday via metro. Here it is on image:</p>
+        <img src="https://www.google.kz/url?sa=i&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%2597%25D0%25B0%25D0%25BA%25D1%2583%25D0%25BB%25D0%25B8%25D1%2581%25D1%258C%25D0%25B5&psig=AOvVaw3PLpvMxi293E34_IwAGwdn&ust=1706772715826000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOidkZaOh4QDFQAAAAAdAAAAABAE">
+        <p><strong>It is very <span class = "a">scary</span></strong></p>
+        <p>But lets talk about KBTU!</p>
+        
+        <h2>Kbtu info</h2>
+        <p>Kazakh-British Technical University, or KBTU is a research and educational institution located in Almaty, Kazakhstan. It was founded in 2001.[2]
+
+About KBTU
+KBTU’s research is focused in the main sectors of the Kazakhstani economy – oil and gas, information technologies, banking and finance, management and telecommunications.
+
+KBTU is the first and only Kazakhstani university with internationally accredited IT programs by the U.S. agency, the Accreditation Board for Engineering and Technology. It is also the first and only Kazakhstani university to receive an international accreditation for its oil and gas programs in the UK by the Institution of Marine Engineering, Science and Technology.</p>
+<img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-seedling.png" height ="100" width = "200">
+    </body>
+</html>
