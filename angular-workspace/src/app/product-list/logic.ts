@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {initialProducts} from '../initialProducts';
+import {categories, Category} from '../products';
 
 @Component({
   selector: 'app-product-list',
@@ -8,7 +8,15 @@ import {initialProducts} from '../initialProducts';
   styleUrls: ['./logic.css']
 })
 export class Logic {
-  products = [...initialProducts];
+  selectedCategory: Category | null = null;
+
+
+  protected readonly categories = categories;
+
+  onRemove($event: number) {
+    this.selectedCategory!.prod_list = this.selectedCategory!.prod_list.filter(product => product.id != $event);
+
+  }
 }
 
 

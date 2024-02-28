@@ -13,7 +13,13 @@
 <p>
   rating: {{ product.rating }} /10
 </p>
+<p>
+  Like: {{ product.likes }}
 
+</p>
+<button type="button" (click)="addLike(product)">
+  Like
+</button>
 <div>
 <button type="button" (click)="share(product.prod_link)">
   Share
@@ -21,5 +27,8 @@
 
 <button type="button" (click)="kaspiStore(product.prod_link)">
   Go to store
+</button>
+<button type="button" (click)="remove(product.id)">
+  Remove
 </button>
 </div>
